@@ -42,6 +42,9 @@ export default class ContactPage extends React.Component { // eslint-disable-lin
           <FormattedMessage {...messages.github} />
           <a class="LI-simple-link" href='https://github.com/houlematt'> houlematt</a>
         </Section>
+        <Section>
+          <FormattedMessage {...messages.email} />
+        </Section>
       </div>
     );
   }

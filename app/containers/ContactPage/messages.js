@@ -12,10 +12,14 @@ export default defineMessages({
   },
   linkedIn:{
     id: 'boilerplate.containers.contact.linkedIn',
-    defaultMessage: 'Find me on LinkedIn'
+    defaultMessage: 'Find me on LinkedIn: '
   },
   github:{
     id: 'boilerplate.containers.contact.github',
-    defaultMessage: 'Or Github'
+    defaultMessage: 'Or Github: '
+  },
+  email:{
+    id: 'boilerplate.containers.contact.email',
+    defaultMessage: 'Or Email Me: matt@matthewhoule.com'
   }
 });
