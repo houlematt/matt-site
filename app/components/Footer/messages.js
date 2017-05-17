@@ -8,7 +8,7 @@ import { defineMessages } from 'react-intl';
 export default defineMessages({
   licenseMessage: {
     id: 'boilerplate.components.Footer.license.message',
-    defaultMessage: 'Built with {reactUrl}, deployed with {herokuUrl}.',
+    defaultMessage: 'Built with {reactUrl}, deployed on {herokuUrl}.',
   },
   authorMessage: {
     id: 'boilerplate.components.Footer.author.message',
