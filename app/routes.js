@@ -38,18 +38,10 @@ export default function createRoutes(store) {
         importModules.catch(errorLoading);
       },
     }, {
-      path: '/features',
-      name: 'features',
+      path: '/skills',
+      name: 'skills',
       getComponent(nextState, cb) {
-        import('containers/FeaturePage')
-          .then(loadModule(cb))
-          .catch(errorLoading);
-      },
-    }, {
-      path: '/resume',
-      name: 'resume',
-      getComponent(nextState, cb) {
-        import('containers/ResumePage')
+        import('containers/SkillsPage')
           .then(loadModule(cb))
           .catch(errorLoading);
       },

@@ -14,9 +14,9 @@ export default defineMessages({
     id: 'boilerplate.components.Header.About',
     defaultMessage: 'About',
   },
-  resume: {
+  skills: {
     id: 'boilerplate.components.Header.Resume',
-    defaultMessage: 'Resume',
+    defaultMessage: 'Skills',
   },
   case_studies: {
     id: 'boilerplate.components.Header.CaseStudies',

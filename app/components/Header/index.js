@@ -19,8 +19,8 @@ class Header extends React.Component { // eslint-disable-line react/prefer-state
           <HeaderLink to="/">
             <FormattedMessage {...messages.home} />
           </HeaderLink>
-          <HeaderLink to="/resume">
-            <FormattedMessage {...messages.resume} />
+          <HeaderLink to="/skills">
+            <FormattedMessage {...messages.skills} />
           </HeaderLink>
           <HeaderLink to="/contact">
             <FormattedMessage {...messages.contact} />
